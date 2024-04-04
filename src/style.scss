@@ -1,0 +1,23 @@
+.event-calendar {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 48px;
+
+    &__title {
+        font-size: 26px;
+        margin-bottom: 10px;
+        
+    }
+
+    &__description {
+        font-style: italic;
+        font-size: 32px;
+        color: hsl(0, 85%, 50%);
+    }
+    p{
+        font-size: 32px;
+    }
+    // Additional styles for specific elements within the event calendar block
+}
